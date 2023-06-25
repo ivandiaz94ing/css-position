@@ -1,0 +1,139 @@
+body{
+    box-sizing: border-box;
+}
+.menuinicial{
+    display: flex;
+    height: 25px; /*Alto del contenedor menú inicial*/
+    flex-direction: row;
+    justify-content:space-between;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 200px;
+    margin-left: 350px;
+    background-color: white;
+}
+
+div a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Calibri';
+    
+}
+
+.divMuro{
+    display: grid;
+    grid-template-columns: auto 650px 270px;
+    grid-template-rows: 100px 100px;
+    grid-gap: 1px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.divMuro >{
+      /* Solo para ilustrar el contenido de cada div */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1px ;
+    padding: 0px;
+  }
+
+.divMenu{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-family: 'Calibri';
+    font-size: 1.2rem;
+    margin-left: 1px;
+    padding-right: 50px;
+    padding-left: 0px;
+    list-style: none;
+     justify-content: center;
+    align-items: center;
+
+
+}
+
+a:hover{
+    background-color: #337083;
+    font-weight: bold;
+    color: white;
+    align-items: stretch;
+}
+.divMenu > li{
+    
+  
+text-align: start;
+padding: 20px 0px;
+width: 7rem;
+justify-content: space-evenly;
+font-weight: bold;
+
+}
+
+#elementBlog {
+    text-align: start;
+}
+
+.divSearch{
+    grid-column: -4 / -1;
+    text-align: center;
+    background-color: #77ca58;
+}
+
+
+.fa-brands{
+    color: #77ca58;
+    font-size: 50px;
+}
+
+
+.divDatos{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+   /* background-color: rosybrown;*/
+}
+
+.divicono{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 20px;
+}
+
+.divwhatsapp p{
+    margin: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.divwhatsapp a{
+    margin: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#txtWhatsapp{
+    font-weight: bold;
+    
+}
+
+#txtNum{
+    color: #77aa3a;
+}
+
+
+.divwhatsapp {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;  
+}
+
+.divLogo img{
+    height: 60%;
+    width: auto;
+}
