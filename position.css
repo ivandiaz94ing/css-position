@@ -31,7 +31,7 @@
 .divHijoRelative{
         position: relative;
         background-color: #800A0A;
-        width: var(--largoHijo)+100px;
+        width: var(--largoHijo);
         height: var(--altoHijo);
         top: 50px;
         left: 50px;
@@ -50,8 +50,8 @@
     background-color: #0D1040   ;
     width: var(--largoHijo);
     height: var(--altoHijo);
-    top: 270px;
-    right: 150px;
+    top: 300px;
+    right: 950px;
 }
 
 
@@ -69,7 +69,7 @@
     width: var(--largoHijo);
     height: var(--altoHijo);
     top: 60px;
-    left: 180px;
+    left: 210px;
     z-index: 0;
 }
 
@@ -90,7 +90,8 @@
 
 }
 
-.fa-brands{
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
-    font-size: 50px;
+    text-align: center;
 }
