@@ -1,0 +1,96 @@
+:root{
+    --alto: 125px;
+    --largo: 280px;
+    --altoHijo: 50px;
+    --largoHijo: 100px; 
+}
+
+.static{
+
+    background-color: gray;
+    height: var(--alto);
+    width: var(--largo);
+    
+}
+.divHijoStatic{
+    background-color: #404040   ;
+    width: var(--largoHijo);
+    height: var(--altoHijo);
+    top: 50px;
+
+
+}
+
+
+.relative{
+    position: relative;
+    background-color: rgb(192, 15, 15);
+    height: var(--alto);
+    width: var(--largo);
+}
+.divHijoRelative{
+        position: relative;
+        background-color: #800A0A;
+        width: var(--largoHijo)+100px;
+        height: var(--altoHijo);
+        top: 50px;
+        left: 50px;
+        z-index: 10;
+    }
+    
+
+.absolute{
+    background-color: rgb(25, 32, 128);
+    height: var(--alto);
+    width: var(--largo);
+}
+
+.divHijoAbsolute{
+    position: absolute;
+    background-color: #0D1040   ;
+    width: var(--largoHijo);
+    height: var(--altoHijo);
+    top: 270px;
+    right: 150px;
+}
+
+
+
+
+.fixed{
+        background-color: rgb(14, 161, 51);
+        height: var(--alto);
+        width: var(--largo);
+
+}
+.divHijcFixed{
+    position: fixed;
+    background-color: #09611F;
+    width: var(--largoHijo);
+    height: var(--altoHijo);
+    top: 60px;
+    left: 180px;
+    z-index: 0;
+}
+
+
+.sticky{   
+    background-color: rgb(141, 129, 23);
+    height: var(--alto);
+    width: var(--largo);
+}
+
+.divHijoSticky{
+    position: sticky;
+    background-color: #4D460C;
+    width: var(--largoHijo);
+    height: var(--altoHijo);
+    top: 100px;
+    left: 10px;
+
+}
+
+.fa-brands{
+    color: white;
+    font-size: 50px;
+}
