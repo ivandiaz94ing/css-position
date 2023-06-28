@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --ColorFondo: #db0a2d;
+    --colorElemento: #1d809ee1;
+    --colorElemento1: #390ba5a4;
+    --colorElemento2: #390ba5a4;
+
+}
+
+.containerRow{
+    height: 15vh;
+    display: flex;
+    background-color: var(--ColorFondo);
+    padding: 2px;
+    flex-direction: row ;
+    border: solid 5px #8072fa ;
+    flex-wrap: wrap;
+    
+}
+
+.containerRowr{
+    height: 10vh;
+    background-color: var(--ColorFondo);
+    padding: 3px;
+    border: solid 5px #8072fa ;
+    
+    display: flex;
+    flex-direction: row-reverse ;
+}
+
+.Column{
+    height: 30vh;
+    background-color: var(--ColorFondo);
+    border: solid 5px #8072fa ;
+
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Columnr{
+    height: 33vh;
+    background-color: var(--ColorFondo);
+    border: solid 5px #8072fa ;
+    padding: 3px;
+    
+    display: flex;
+    flex-direction: column-reverse ;
+    flex-wrap: wrap-reverse;
+    justify-content:  center;
+}
+
+.item {
+    background-color: var(--colorElemento);
+    border: solid rgba(8, 8, 8, 0.747) 1px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    flex-grow: 0;
+
+
+}
+
+.item:nth-child(1){
+    flex-grow: 0;
+}
+
